@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+描　　述：公用样式，头部、尾部
+更新时间：2015/08/15 10:23
+作　　者：simiii@simiii.com  QQ:253173068
+*/
+/*common icons*/
+.icon_short_phone,
+.header_logo,
+.icon_search,
+.icon_vedio_play,
+.icon_arrow_d_w,
+.icon_prev,
+.icon_next{ display:inline-block; background-image:url(../images/icons_common.png); vertical-align:middle; margin:0 2px;}
+.shortCut{ height:32px; line-height:32px; vertical-align:middle; font-size:12px; background-color:#f7f7f7; color:#929292; border-bottom:solid 1px #f1f1f1;}
+.sc_lefter{ float:left;}
+.sc_righter{ float:right;}
+.sc_righter a{ color:#929292; display:inline-block;}
+.icon_short_phone{ width:10px; height:14px; background-position:0 0;}
+.sc_phone_app{position: relative;}
+.sc_phone_app:hover .icon_short_phone{ background-position:0 -14px; transition:all 0.2s ease;}
+.sc_phone_app:hover .mobile_ewm{width:160px;height:160px;background: url(../../images/mobile_ewm.png) no-repeat;display: block;position: absolute;z-index: 10;top: 30px;left: -45px;}
+.sc_righter a:hover{ color:#BC1D1D;}
+
+/*header*/
+.header{ padding-top:20px; height:125px;font-size: 20px;}
+.logo{ float:left; padding-top:12px;}
+.header_logo{ width:170px; height:70px; background-position:-12px 0;}
+.appAD{ float:right;margin-top: 20px;}
+.searchBox{ width:27em; margin:0 auto; }
+.searchTabs{ overflow:hidden;}
+.searchTabs li{ float:left; font-size:12px; padding:0 0.7em; height:22px; line-height:22px; vertical-align:middle; cursor:pointer;}
+.searchTabs li.on{ background-color:#3498db; color:#fff; border-radius:2px 2px 0 0;}
+.searchForm{ overflow:hidden;}
+.searchInput{ width:80%; float:left;  position:relative; z-index:99; }
+.searchInputBorder{ height:40px; border:solid 2px #3498db;overflow:hidden;}
+.searchButton{ width:20%; display:block; height:40px; background-color:#3498db; line-height:40px; vertical-align:middle; color:#fff; float:right;font-size:16px; text-align:center; transition:all 0.3s ease;}
+.searchButton:hover{ background-color:#106bc8; color:#fff;}
+.searchInput input{ width:100%; line-height:28px; vertical-align:middle; border:none; font-size:14px; padding:0 3% 0 10%; margin: 4px 0px; background-color:transparent;  }
+.icon_search{ background-position:0 -70px; position:absolute; left:10px; top:12px; z-index:100; width:20px; height:19px;}
+.hotSearchs{ font-size:13px;  height:1em; line-height:1em; overflow:hidden; margin:10px 0;}
+.hotSearchs a{color:#999999; transition:all 0.3s ease; }
+.hotSearchs a:hover{ color:#BC1D1D;}
+.hotSearchs li{ float:left; padding-right:10px;}
+@media screen and (max-width:1200px){
+	.hotSearchs{ font-size:12px;}
+	}
+/*nav*/
+.nav{ background-image:url(../images/nav_bg.jpg); background-repeat:repeat-y; background-position:center top; height:46px; vertical-align:middle; line-height:46px; background-color:#0165ba; font-size:15px;}
+.navList a{ display:block; height:46px; float:left; padding:0 2.48em; color:#fff; float:left; transition:all 0.3s ease;}
+.navList li{ float:left;}
+@media screen and (max-width:1200px){
+	.navList a{ padding:0 1.3em;}
+	}
+.navList a:hover{background-color:#0e70cd; color:#fff;}
+.navhover{background-color:#0e70cd; color:#fff;}
+.icon_arrow_d_w{ width:5px; height:3px; background-position:-74px -76px;}
+
+#rocket-to-top div {
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 149px;
+}
+#rocket-to-top .level-2 {
+    background: url(../images/rocket_button_up.png) no-repeat scroll -149px 0 transparent;
+    display: none;
+    height: 250px;
+    opacity: 0;
+    z-index: 1;
+}
+#rocket-to-top .level-3 {
+    background: none repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 150px;
+    z-index: 2;
+}
+#rocket-to-top {
+    background: url(../images/rocket_button_up.png) no-repeat scroll 0 0 transparent;
+    cursor: default;
+    display: block;
+    height: 250px;
+    margin: -125px 0 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 95%;
+    width: 149px;
+    z-index: 11;
+}
+
+/*楼层间隔公告类20180101*/
+.partmt{
+    margin-top: 0.9em;
+}

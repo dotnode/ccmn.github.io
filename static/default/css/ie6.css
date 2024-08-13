@@ -1,0 +1,11 @@
+﻿/*--------------------------------------------------
+ *@名称:		相关的重要css
+ *@作者:		小黑
+ *@QQ:		    290948585
+ *@Date:        2016-08-10
+ *@版本:		st04
+ *@网站:		www.dtmuban.com
+ *			特注：此文件非经许可，请勿修改
+--------------------------------------------------*/
+body {_background-image:url('images/spacer.gif');_background-attachment:fixed;}
+#head {_position:absolute;_top:expression(documentElement.scrollTop);}

@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+描　　述：首页涉及样式
+更新时间：2015/08/15 10:23
+作　　者：simiii@simiii.com  QQ:253173068
+*/
+.coWrap{ width:1200px; margin:0 auto; }
+
+.icon_edit,
+.tips_title_blue,
+.tips_title_bgreen,
+.tips_title_gray,
+.tips_title_yellow,
+.tips_title_green,
+.icon_xiehui_1,
+.icon_xiehui_2,
+.icon_xiehui_3,
+.icon_xiehui_4,
+.icon_xiehui_5,
+.icon_xiehui_6,
+.icon_xiehui_7,
+.icon_xiehui_8
+{ background-image:url(../images/index_icons.png); display:inline-block; vertical-align:middle; margin-right:5px;}
+
+h2{color:#3b3a3a;}
+.fl{float:left;}
+.fr{float:right}
+/*part00*/
+.part00{margin-top:23px;margin-bottom: 20px;}
+.part00 img{width: 950px;height: 230px;}
+.part00 .zt{width:235px;height: 230px;border:1px solid #b5b5b5;}
+.zt .zt_con{padding: 8px 15px; float: right;}
+.zt_con h2{color: #23be8d;font-size: 14px;margin-bottom: 8px;}
+.zt_con img{width: 180px;height: 120px;margin-bottom: 8px;}
+.zt_con h3{color: #313232;font-size: 13px;font-weight: normal;}
+.zt_con h4{color: #5a5a5b;font-size: 12px;font-weight: normal;height: 44px;line-height: 22px;overflow: hidden;}
+.rightad { width: 235px; height: 230px; overflow: hidden; }
+/*part01*/
+.part01{ margin-top:23px;margin-bottom: 20px;}
+.partLefter{ float:left; width:228px; border:1px solid #ccc;}
+.partMid{ float:left; margin-left:16px; width:505px; }
+.partRighter{ float:right; width:235px;}
+.ad0{margin-left: 16px;}
+.ad01 {background-image:url(../images/qy_ad1.jpg);color:#ffffff;height:56px; width: 950px;}
+.ad01 span{margin-left:465px;line-height:52px;}
+.ad02 {background-image:url(../images/qy_ad2.jpg);color:#ffffff;height:34px;width:950px;font-size:14px}
+
+.index_editButtons{ background-image:url(../images/edit_bg.jpg); background-repeat:repeat-y; background-position:center top; height:1.6em;line-height:1.05em; vertical-align:middle;padding-top:0.5em; border-radius:2px 2px 0 0; overflow:hidden; background-color:#0b5fb2;}
+.index_editButtons a{ font-size:0.7em; vertical-align:middle; text-align:center; display:block; float:left; width:50%; color:#fff;  }
+.icon_edit{ background-position:0 0; width:16px; height:16px;}
+.es_qg_list{ border:solid 2px #289cdd; height:26em; border-top:none; padding:0 0.75em;}
+.tips_title_blue,.tips_title_bgreen,.tips_title_gray,.tips_title_yellow,.tips_title_green{ width:55px; height:20px; line-height:20px; vertical-align:middle; background-position:-18px 0; padding-left:10px; font-size:12px; color:#fff;}
+.tips_title_bgreen{ background-position:-18px -21px;}
+.tips_title_gray{ background-position:-88px 0;}
+.tips_title_yellow{ background-position:-88px -21px; width:87px;}
+.tips_title_green{ width:125px; background-position:-18px -42px;}
+.li_title{ line-height:20px; vertical-align:middle; vertical-align:middle; padding-top:15px;}
+.index_list{ line-height:1.45em; vertical-align:middle; padding:0.45em 0;}
+.index_list li{ font-size:13px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width:100%; }
+.index_list li a{ color:#555;}
+.index_list li a:hover{ color:#BC1D1D;}
+.index_list li .num{ font-size:18px; font-style:italic; padding-right:0.2em;  vertical-align:top; font-family:Arial, Helvetica, sans-serif; color:#999; }
+.index_list li .newFirst{color:#fc880b;}
+.border_dashed{ border-bottom:dashed 1px #ddd;}
+@media screen and (max-width:1200px){
+	.index_list{ line-height:1.4em;}
+	.index_list li{ font-size:12px;}
+	.index_list li .num{ font-size:15px;}
+	}
+	
+/*partLefter*/	
+.banner{ height:220px; overflow:hidden; width:288px; position:relative;}
+.banner img{ width:288px; height:220px;}
+.banner_handller{ position:absolute; bottom:15px; right:15px;  }
+.banner_handller li{ text-indent:9999px; background-color:#fff; width:5px; height:5px; border-radius:5px; margin-left:5px;overflow:hidden; float:left;}
+/* slider css */
+.slideBox{ width:288px; height:220px; overflow:hidden; position:relative; }
+.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }
+.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;}
+.slideBox .hd ul li{ float:left; margin-right:4px;  width:10px; height:10px; line-height:10px; text-align:center; background:#fff; cursor:pointer; text-indent:9999px; font-size:10px; border-radius:5px;}
+.slideBox .hd ul li.on{ background:#f00; color:#fff; }
+.slideBox .bd{ position:relative; height:100%; z-index:0;}
+.slideBox .bd li{ zoom:1; vertical-align:middle; }
+.slideBox .bd img{ width:288px; display:block;  }
+
+/*partLefter*/
+.partLefter h2{width:208px;height: 24px;font-size:16px;}
+.partLefter ul{width: 208px;height: 426px;}
+.partLefter ul li{float: left;width: 206px;line-height: 30px;padding: 0px 4px;max-height: 105px;overflow: hidden;margin-bottom: 10px;}
+.partLefter ul li i{float: left;width: 180px;height: 26px;line-height: 26px;margin-right: 4px;font-size: 16px;color: #3b3a3a;padding-left: 20px;}
+.partLefter ul li p{width: 200px;font-size: 12px;line-height: 25px;}
+.partLefter ul li p a{color: #3b3a3a;background-image: none;font-weight: normal;font-size: 12px;white-space: nowrap;display: inline-block;}
+
+
+.partMid .partMid_t{width: 703px;height: 198px; border:1px solid #aaaaaa;}
+.partMid .partMid_b{width: 705px;height: 300px;margin-top: 17px}
+.partMid_b h2{width: 505px;font-size: 18px;}
+.partMid_b ul li{width:167px;height: 70px;line-height: 70px;margin-top: 20px;}
+.partMid_b ul li.fl{margin-right: 12px;}
+.partMid_b ul li img{width: 160px;height: 70px;}
+
+.partRighter .partRighter_t{border: 1px solid #dddddd;}
+.partRighter .partRighter_b{width: 213px;margin-top: 17px;border: 1px solid #dddddd;padding: 10px;}
+.partRighter_b h2{color: #23be8d;font-size: 14px;}
+.partRighter_b ul li{height: 28px;line-height: 28px; font-size: 13px;color: #474747;}
+
+.part02{margin-top: 15px;margin-bottom: 5px;}
+.part02Lefter{width: 931px;height: 476px;float: left;}
+.part02Lefter i{font-size: 18px;color: #3b3a3a; }
+.part02Lefter ul{width: 931px;height: 446px;border-left:1px solid #d2d2d2;border-bottom:1px solid #d2d2d2;margin-top: 4px;}
+.part02Lefter ul li{width:186px;height:148px; float: left;font-size: 12px;color: #000;float: left;text-align: center;border-top:1px solid #d2d2d2;border-right:1px solid #d2d2d2;}
+.part02Lefter img{width: 118px;padding-top: 5px;}
+.part02Lefter p{width: 186px;height:20px;line-height: 20px; text-align: center;}
+.part02Righter{width:212px;height: 476px;border:1px solid #dddddd;float: right;padding: 10px;}
+.part02Righter h2{color: #23be8d;font-size: 14px;}
+.part02Righter ul li{height: 28px;line-height: 28px; font-size: 13px;color: #474747;}
+
+
+.part03{margin-top: 15px;margin-bottom: 15px;}
+.part03Lefter{width: 748px;height: 363px;border:1px solid #dddddd;float: left;}
+.part03Righter{width:232px;height: 363px;border:1px solid #dddddd;float: right;}
+
+.ad2 ul li.lef{float: left;margin-right: 16px;}
+.ad2 ul li.rig{float: right;}
+
+.frendLinks{ border-top: solid 5px #eee; padding:20px; margin-top:20px;}
+.frendLinksList{ padding-top:0.5em;}
+.frendLinksList li{ width:7.5em; float:left; line-height:1.1em;}
+.frendLinksList li a{ font-size:14px;}
+.frendLinks h2{ font-size:18px;}
+
+.F_footer{ text-align:center; font-size:12px; line-height:160%; color:#999; padding-top:0.75em;}

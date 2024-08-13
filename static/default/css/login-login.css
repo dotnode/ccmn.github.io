@@ -1,0 +1,242 @@
+﻿/*--------------------------------------------------
+ *			特注：此文件非经许可，请勿修改
+--------------------------------------------------*/
+body{margin:0;padding:0;font-size:12px; font-family:'Hiragino Sans GB','微软雅黑',arial,sans-serif; color:#555; font-weight:normal;}
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px white inset;}
+.clearfix:after{clear:both;display:block;content:"...";visibility:hidden;height:0;font-size:0;}
+.clearfix{*zoom:1;}
+.wrap input{ height:40px; line-height:40px; color:#999; border:1px solid #dcdcdc; font-size:16px;padding:0 0 0 5px }
+.wrap input.on{ height:40px; line-height:40px; color:#999; border:1px solid #ff6666; font-size:16px;padding:0;/*width: 304px;*/}
+.wrap i{ background:url("images/reglogin.png") no-repeat 0 0;}
+.wrap{ width:100%; background:#fafafa;}
+.top-header{ width:100%; background:#fff; height:138px; box-shadow:1px 2px 6px #e1e1e1; z-index:1; position:relative;}
+.top-head{ width:1140px; height:138px; margin:0 auto;}
+.reg-logo{ float: left; height: 68px;margin-top: 15px;}
+.reg-logo p{ float:left;}
+.reg-logo .index{ width:200px;padding-right: 20px;    margin-top: -5px;}
+.reg-logo .topic{width:170px;float:left;height:42px;top: 50%;margin-top: 30px;font-size: 26px;border-left: 1px solid #888;padding-left: 25px;font-weight: 400;color: #888;}
+.reg-logo .index a{ width:188px;}
+.reg-logo .topic a{ width:170px;}
+.reg-logo p a{ display:block; height:100px;}
+.reg{ float:right; color:#999; margin-top:48px; height:14px; line-height:14px;}
+.reg a,.reg a:hover{ color:#0066cc; margin-left:20px;}
+
+.main-bg{ width:100%; height: 600px;}
+.main-bgzc {width:100%;}
+.main{width:1180px;margin:0 auto;}
+.links {margin-top: 1px;}
+.links a{color: #666;}
+.contentdl {
+    min-width: 324px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner-link {
+    position: absolute;
+    top: 69px;
+    left: 52%;
+    width: 400px;
+    height: 400px;
+    margin-left: -414px;
+}
+
+.banner-link em {font-size:26px;font-weight: 700;font-style: inherit;}
+/*忘记密码*/
+.process{ background:url(images/progress.jpg) no-repeat; width:798px; height:36px; margin-top:30px; position:relative;}
+.forgot-box{ padding:0 98px; height:420px; padding-top:30px;}
+.forgot-box .title{ font-size:24px; font-family:"微软雅黑"; color:#999; line-height:24px; height:24px;}
+.process-1{ background-position:0 0;}
+.process-2{ background-position:0 -42px;}
+.process-3{ background-position:0 -86px;}
+.process-4{ background-position:0 -130px;}
+.process li{ position:absolute; color:#999; line-height:20px; top:40px;}
+.process .n1{ left:30px;}
+.process .n2{ left:262px;}
+.process .n3{ left:488px;}
+.process .n4{ left:725px;}
+.process .on{ color:#cc0000;}
+.form-list{ padding:60px 0 0 110px; height:218px; overflow:hidden;}
+.form-list .item{ height:42px; padding-bottom:15px;}
+.form-list .mt5{ margin-top:5px;}
+.form-list .item span{ float:left; display:inline-block; line-height:42px; font-size:16px; width:128px; padding-right:10px; color:#666; text-align:right;}
+.form-list .item .item-wrap{ height:42px; float:left; width:302px; position:relative;}
+.form-list .item .item-wrap .acc{ background-position:-51px 0; width:20px; height:20px; display:inline-block; position:absolute; left:14px; top:10px; z-index:1;}
+.form-list .item .item-wrap .cap{ background-position:-426px 0; width:18px; height:24px; display:inline-block; position:absolute; left:14px; top:10px; z-index:1;}
+.form-list .item .item-wrap .lock{ background-position:-83px 0; width:16px; height:22px; display:inline-block; position:absolute; left:14px; top:10px; z-index:1;}
+.form-list .item .item-wrap .corr{ display: none; background-position:-139px 0; width:14px; height:14px; position:absolute; right:20px; top:15px; z-index:1;}
+.form-list .item .item-wrap .error{ display: none; background-position:-162px 0; width:14px; height:15px;  position:absolute; right:20px; top:15px; z-index:1;}
+.form-list .item .item-wrap .tel{ background-position:-265px 0; width:15px; height:24px; display:inline-block; position:absolute; left:14px; top:10px; z-index:1;}
+.form-list .item .item-wrap .correct{ display: none; height:20px; line-height:20px; padding:0 10px; background:#ed787f; color:#fff; font-size:12px; position:absolute; right:0; bottom:-15px; z-index:3;}
+.form-list .item .item-wrap .click{ height:20px; line-height:20px; padding:0 10px; background:#ccc; color:#fff; font-size:12px; position:absolute; right:0; bottom:-15px; z-index:3;}
+.form-list .item .item-wrap .iput-1{ width:210px; position:relative; z-index:2; background:none; padding:0 45px; font-weight:700;}
+.form-list .item .item-wrap .iput-4{ width:120px; position:relative; z-index:2; background:none; padding:0 135px 0 45px; font-weight:700;}
+.form-list .item .iput-3{ width:302px; height:42px; background:#e10303; color:#fff; border:none; cursor:pointer; float:left; font-family:"微软雅黑"; /*border-radius: 2px;*/}
+.form-list .item .item-wrap em{ position:absolute; display:inline-block; line-height:42px; top:0; left:45px; color:#ccc; font-style:normal; font-size:16px;}
+.form-list .item .item-wrap .next{ background-position:-188px 0; width:28px; height:24px; position:absolute; right:10px; top:10px; cursor:pointer; z-index:3;}
+.form-list .item .item-wrap .yzm{ position:absolute; display:inline-block; left:170px; top:4px; z-index:3; cursor:pointer;}
+.strength{ float:left; padding:10px 0 0 10px; height:32px; width:100px; display:none;}
+.strength b{ float:left; display: inline-block; font-family:"微软雅黑"; font-size:12px; color:#666; font-weight:normal; margin-top:8px;}
+.strength i{ float:left; display:inline-table; margin:0 5px; width:44px; height:22px; overflow:hidden;}
+.strength .strength1{ background-position:-222px -99px;}
+.strength .strength2{ background-position:-269px -100px;}
+.strength .strength3{ background-position:-316px -100px;}
+.verify{ width:523px; margin:90px auto 0 auto;}
+.verify p{ font-size:14px; color:#999; line-height:26px;}
+.verify .alarm{ background-position:-76px -147px; width:59px; height:59px; display:block; margin:34px auto 0 auto;}
+.verify .done{ background-position:0 -147px; width:59px; height:59px; display:block; margin:30px auto 0 auto;}
+.verify h3{ font-family:"微软雅黑"; font-size:18px; color:#339900; height:20px; line-height:20px; text-align:center; font-weight:normal;}
+.back-home{ font-family:"微软雅黑"; font-size:18px; text-align:center; background:#e10303;  /*border-radius:2px;*/ width:227px; height:42px; line-height:42px; display:block; margin:38px auto 0 auto;}
+.back-home,.back-home:hover{ text-decoration:none; color:#fff;}
+.item-wrap select{ border:1px solid #dcdcdc; font-size:16px; color:#999; padding:9px 5px; display:inline-block; vertical-align:middle; position:relative; _top:5px; *top:8px; float:left; width:302px;}
+.item-wrap .by-phone{ line-height:42px; font-weight:bold; font-size:16px; color:#666; padding-left:15px; position:absolute; top:0; left:0;}
+.form-list .item .item-wrap .checkButBox{ left:171px;}
+.form-list .item .item-wrap .checkButBox span{ padding:0; text-align:center;}
+.explan{ color:#999; line-height:24px; text-align:center; margin-top:10px;}
+
+
+/*普通登录begin*/
+.loginSideAd{float: left;display: inline-block;*display: inline;*zoom: 1;width: 600px;height: 450px;overflow: hidden;margin-left: 5px;}
+.loginCon{background: #ffffff;width: 306px;float: right;display: inline-block;*display: inline;*zoom: 1;margin-right: 12px;padding: 0 20px 20px;position: relative;}
+.loginCon .loginTit{margin: 20px 0;height: 40px;overflow: hidden;}
+.loginTit h1{font-family: "Microsoft Yahei";line-height: 24px;font-weight: normal;color: #777;font-size: 24px;float: left;display: inline-block;*display: inline;*zoom: 1;}
+.loginTit a{float: right;display: inline-block;*display: inline;*zoom: 1;color: #0066cc;margin-top: 14px;}
+.loginTit a:hover{color: #0066cc;}
+.Frame{width: 306px;height: 42px;position: relative;top: 0;left: 0;margin-bottom: 20px;}
+.Frame .filter{width: 43px;height: 42px;position: absolute;top: 0;left: 0;z-index: 5;}
+.Frame .text{position: absolute;top: 0;left: 0;z-index: 4;background: none;font-weight: 700;}
+.enterFrame .text{ width: 216px; padding:0 39px 0 49px;font-size: 13px;/*letter-spacing:2px;*/}
+.Frame .filter i{float: left;display: inline-block;*display: inline;*zoom: 1;}
+.Frame .filter .userIconBox{display: inline-block;width: 43px;height: 40px;background:#fff;position:absolute; top:1px; left:1px; z-index:3;border-right: 1px solid #ddd;}
+.Frame .filter .userIcon{width: 20px;height: 20px;background-position: -51px 0;margin: 12px 10px auto 13px;}
+.Frame .filter p{ display: inline-block;*display: inline;*zoom: 1;font-size: 16px;margin-top: 10px;color: #ccc;position:absolute; left:0; top:0; width:130px; padding-left:49px; z-index:5;}
+.Frame .filtercap p{padding-left:0; text-align:center;}
+.Frame .filter .judge{float: none;display: inline-block;*display: inline;*zoom: 1;position:absolute; left:280px; top:15px;}
+.Frame .filter .pwdIcon{width: 16px;height: 22px;background-position: -83px 0;margin: 10px 11px auto 16px;}
+.Frame.wrong .filter .judge{width: 14px;height: 15px;background-position: -162px 0;}
+.Frame.right .filter .judge{width: 14px;height: 14px;background-position: -139px 0;}
+.mistakeTip,.mistakeTip02,.mistakeTip2{padding: 0 10px;height: 20px; color: #fff;line-height: 20px;position: absolute;bottom: -20px;right: 0;z-index: 5;}
+.mistakeTip,.mistakeTip2{background: #ed787f;}
+.mistakeTip02{ background:#ccc;}
+.yzFrame .text{padding-left: 43px;width: 127px;padding-right: 134px;}
+.yzFrame .yzm{position: absolute;left: 160px;top: 1px;}
+.Frame .filter .yzIcon{width: 18px;height: 24px;background-position: -426px 0;margin: 10px 11px auto 15px;}
+.yzFrame .refresh i{width: 28px;height: 24px;z-index: 5;position: absolute;top: 9px;right: 10px;background-position: -188px 0;}
+.loginCon .loginBtn{margin-bottom: 11px;}
+.loginBtn input{width: 306px;background-color: #22a5e6;color: #fff;/*border-radius: 2px;*/border: 0;cursor: pointer;font-family: "Microsoft Yahei";}
+.loginBtn input:hover{background-color: #369acc;}
+.loginCon .moreChoice{padding-bottom: 12px;border-bottom: 1px dotted #ccc;}
+.moreChoice .auto,.moreChoice .autome,.moreChoice .forgetPwd{color: #999;display: inline-block;*display: inline;*zoom: 1;}
+.moreChoice .freeReg{color: #0066cc;display: inline-block;*display: inline;*zoom: 1;float: right;}
+.moreChoice .forgetLine{float: right; padding:0 3px; position: relative; top:-2px; color:#999;}
+.moreChoice .auto{float: left;}
+.moreChoice .autome{float: left;margin-left: 10px;}
+.moreChoice .forgetPwd{float: right;}
+.moreChoice .auto input{height: auto;border: 0;}
+.moreChoice .autome input{height: auto;border: 0;}
+.cooperate p{margin: 16px auto 11px;text-align: center;color: #999;}
+.cooperateWay{width: 243px;height: 42px;margin: 0 auto;}
+.cooperateWay a i{float: left;display: inline-block;*display: inline;*zoom: 1;width: 42px;height: 42px;margin-left: 25px;}
+.cooperateWay .qq i{background-position: 0 -35px;margin-left: 0;}
+.cooperateWay .sina i{background-position: -51px -35px;}
+.cooperateWay .wechat i{background-position: -102px -35px;}
+.cooperateWay .baidu i{background-position: -153px -35px;}
+.cooperateWay .qq:hover i{background-position: 0 -86px;}
+.cooperateWay .sina:hover i{background-position: -51px -86px;}
+.cooperateWay .wechat:hover i{background-position: -102px -86px;}
+.cooperateWay .baidu:hover i{background-position: -153px -86px;}
+/*普通登录end*/
+
+/****************企业用户注册页面开始*******************/
+.firmPersonalBoxzc .regTitBoxzc{width:280px;height:35px;position:absolute;right: 0px;top:0px}
+.regTitBox{width:280px;height:35px;position:absolute;right: -78px;top: -3px;}
+.regTitBox span{
+	float:right;
+	cursor:pointer;
+	 display:inline-block;
+	 width:115px;
+	 height:35px;
+	  line-height:35px;
+	   font-family:Arial,"宋体",Lucida,Verdana,Helvetica,sans-serif;
+	   font-size:14px;
+	   border-top-left-radius:5px;
+	   border-top-right-radius:5px;
+	   margin-left:6px;
+	   vertical-align:top;
+	border:2px solid #eaeaea;
+	background:#ff971b;
+	color:#fff;
+	margin-bottom:-3px;
+	position:relative;
+	border-bottom: none;
+	text-align: center;
+	}
+
+.regTitBox a:hover{ color:#fff; text-decoration:none;}
+.regTitBox a:link, .regTitBox a:visited {color: #ffffff;}
+.regTitBox span:hover {background: #ff7e00;}
+
+.firmRegMain .accNotic i,.firmRegMain .mainBox .firmRegIcon,.firmRegMain .mainBox .errorIcon,.firmRegMain .mainBox .firmCheckMore{background: url("images/reglogin.png") no-repeat;}
+.firmRegMain{ width:994px; margin:0 auto; border:3px solid #EAEAEA;-moz-box-shadow:2px 5px 10px -4px #EAEAEA;-webkit-box-shadow:2px 5px 10px -4px #EAEAEA; box-shadow:2px 5px 10px -4px #EAEAEA; color:#000; }
+.firmRegMain .mainBox{ padding:70px 50px;background: #fff}
+.firmRegMain .mainBox .accountInfo{ border-bottom:1px dashed #EAEAEA;margin-bottom: 35px; }
+.firmRegMain .mainBox .accountInfo .impotFont{ font-family:"微软雅黑"; font-size:18px; color:#333333; margin-right:35px; font-weight:600;}
+.firmRegMain .mainBox .accountInfo .tipFont{ color:#2888ea; font-size:12px; height:60px; line-height:60px;}
+.firmRegMain .mainBox .ln_addressTr { height:42px; margin-bottom:20px;}
+.firmRegMain .mainBox .ln_addressTr .ln_addressTrTit {font-size:16px;width: 100px;text-align: right;height: 40px;line-height: 40px;display: inline-block;margin-right:17px;}
+.firmRegMain .mainBox .ln_addressTr .ln_addressTrTit b {font-family: "宋体";margin-right: 5px;font-weight: normal;color: #ff0000;}
+.firmRegMain .mainBox .ln_addressTr .ln_addressTrTit i {padding-right: 5px;color: #cc0000;}
+.firmRegMain .mainBox .qjwSubmit4 { position:relative; z-index:2;background: none;border:none;float: left;width: 329px;font-family:"宋体"; font-weight:700}
+.firmRegMain .mainBox .acc {height: 37px;float: left;}
+.firmRegMain .mainBox .ln_addressTr span {display: inline-block; color: #666; float: left;}
+.firmRegMain .mainBox .accNotic {height: 37px; color: #cc0000; position: relative; top: 0;left: 0;}
+.firmRegMain .mainBox .accNotic span { font-size: 12px; color: #cc0000; float: left; line-height: 37px; display: inline-block; padding-left: 5px; font-family: "宋体"; }
+.firmRegMain .mainBox .accNotic i {background-position: -162px 0px; float: left; display: inline-block; width: 14px; height: 15px; margin-top: 11px;}
+.firmRegMain .mainBox .firmBox{border: 1px solid #e4e4e4;display: inline-block;  width:380px; position:relative;background: #fff; height:40px; float:left;}
+.firmRegMain .mainBox .borderReds{border: 1px solid #ff6666;}
+.firmRegMain .mainBox .borderGreens{border: 1px solid #7ABD54;}
+.firmRegMain .mainBox .firmBox select{ margin-top: 7px; margin-right:15px;height: 40px;width:114px;border: 1px solid #e4e4e4; padding:4px 5px;font-size: 14px;font-family: arial,"宋体";color: #999;}
+.firmRegMain .mainBox .firmRegIcon{ width:20px; height:20px; display:inline; margin:10px 10px 0 20px; float:left; overflow: hidden;}
+.firmRegMain .mainBox .firmAccount{ background-position:-51px 0px; }
+.firmRegMain .mainBox .firmPassword{ background-position:-81px 0px; }
+.firmRegMain .mainBox .firmEmail{ background-position:-230px 4px; }
+.firmRegMain .mainBox .firmIphone{ background-position: -263px 1px;height: 27px;margin-bottom: 4px;margin-top: 8px;}
+.firmRegMain .mainBox .firmTel{background-position: -298px 1px;height: 23px;margin-bottom: 7px;margin-top: 8px; }
+.firmRegMain .mainBox .firmCompany{ background-position:-326px 0px; margin-right:4px; width:26px;}
+.firmRegMain .mainBox .firmAddress{ background-position:-363px 0px;height: 25px;}
+.firmRegMain .mainBox .firmCheckIt{ background-position:-425px 0px; height:25px;}
+.firmRegMain .mainBox .firmTipFont{ z-index:1; position:absolute; top:0px; left:50px; height:40px; line-height:40px; font-size:14px; width:330px; color:#CCCCCC}
+.firmRegMain .mainBox .errorIcon{ float:left; width:18px;  height:40px; margin-right:15px; _margin-right:7px; background-position: 0px 8px; display: none;}
+.firmRegMain .mainBox .pass{background-position: -137px 4px;}
+.firmRegMain .mainBox .st{background-position:-160px 6px;}
+.firmRegMain .mainBox .ifrmCheckCode{border: none; float: left; font-size: 14px; font-weight: 700; color: #999; height: 40px; line-height: 40px; width: 170px;}
+.firmRegMain .mainBox .firmBox .errorFontTip{ display: none; z-index:4; position:absolute; bottom:-20px; right:-1px; height:20px;line-height:20px; color:#fff; padding:0px 12px}
+.firmRegMain .mainBox .firmBox .errorBgPea{ background:#ED787F; }
+.firmRegMain .mainBox .firmBox .errorBgGay{ background:#ccc; }
+.firmRegMain .mainBox .firmBox .specPos{ bottom:-26px;}
+.firmRegMain .mainBox .firmCheckImg {float: left; display: inline;  }
+.firmRegMain .mainBox .firmCheckMore{ width: 29px; height: 29px; background-position: -187px 0px; float: left; display: inline;margin-top: 8px; cursor: pointer; margin-left: 16px;}
+.firmRegMain .mainBox .firmAgreement { padding-left:101px;}
+.firmRegMain .mainBox .firmAgreement a{ color:#0066CC}
+.firmRegMain .mainBox .firmAgreement input{ border:none;}
+.firmRegMain .mainBox .firmAgreement span{ margin-left:10px; color:#999999;}
+.firmRegMain .mainBox .firmSubmit{ padding-left:101px;}
+.firmRegMain .mainBox .firmSubmit .nowSubmit{ width:305px;background:#3094ed; border: medium none; /*border-radius: 2px;*/ color: #fff; cursor: pointer; font-family: "微软雅黑"; font-size: 18px; height: 42px;}
+.firmRegMain .mainBox .firmSubmit .nowSubmit:hover{background:#2888ea; }
+.firmRegMain .mainBox .firmSubmit .tipLogin{ margin-left: 10px;color: #999999;}
+.firmRegMain .mainBox .firmSubmit .tipLogin a{color:#0066CC}
+.firmPersonalBox{ width: 1000px; height: 34px; margin: 0 auto; position: relative;margin-top: -515px;}
+.firmPersonalBox .firmPersonalReg{background: none repeat scroll 0 0 #ff9900;  border-top-left-radius: 5px;  border-top-right-radius: 5px; color: #fff; cursor: pointer; display: block; font-family: "微软雅黑"; font-size: 14px; height: 34px; line-height: 34px; padding: 0 17px; position: absolute; right: 15px; top: -34px;}
+.firmPersonalBoxzc{ width: 1000px; height: 34px; margin: 0 auto; position: relative;}
+.firmPersonalBoxzc .firmPersonalReg{background: none repeat scroll 0 0 #ff9900;  border-top-left-radius: 5px;  border-top-right-radius: 5px; color: #fff; cursor: pointer; display: block; font-family: "微软雅黑"; font-size: 14px; height: 34px; line-height: 34px; padding: 0 17px; position: absolute; right: 15px; top: -34px;}
+.firmPersonalBox .firmPersonalReg:hover,.firmPersonalBoxzc .firmPersonalReg:hover{ color:#fff; text-decoration:none;}
+
+/****************企业用户注册页面结束*************************/
+/*底部 footer*/
+#regfooter {padding-bottom: 30px;text-align: center;}
+#regfooter .copyright {margin: 10px 0;}
+#regfooter .copyright a{padding-left: 15px}
+#regfooter .links a{padding: 0 6px;}
+

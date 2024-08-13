@@ -1,0 +1,53 @@
+@charset "utf-8";
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0}header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block}table{border-collapse:collapse;border-spacing:0}
+caption,th{text-align:left;font-weight:normal}
+html,body,fieldset,img,iframe,abbr{border:0}
+i,cite,em,var,address,dfn{font-style:normal}
+[hidefocus],summary{outline:0}
+li{list-style:none}
+h1,h2,h3,h4,h5,h6,small{font-size:100%}
+sup,sub{font-size:83%}
+pre,code,kbd,samp{font-family:inherit}
+q:before,q:after{content:none}
+textarea{overflow:auto;resize:none}
+label,summary{cursor:default}
+input,textarea{font-family:Microsoft yahei}
+a,button{cursor:pointer}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold}
+del,ins,u,s,a,a:hover{text-decoration:none}
+body,textarea,input,button,select,keygen,legend{color:#333;outline:0}
+body{background:#fff;font-family:Microsoft Yahei}
+a{color:#333}
+a:hover{color:#C00}
+p{text-align:justify;text-justify:inter-ideograph}
+.clearFix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearFix{display:inline-table}
+*html .clearFix{height:1%}
+.clearFix{display:block}
+*+html .clearFix{min-height:1%}
+.padd10{padding:10px}
+.padd20{padding:20px}
+.padd30{padding:30px}
+.paddL10{padding-left:10px}
+.paddT10{padding-top:10px}
+.paddR10{padding-right:10px}
+.paddB10{padding-bottom:10px}
+.paddL20{padding-left:20px}
+.paddT20{padding-top:20px}
+.paddR20{padding-right:20px}
+.paddB20{padding-bottom:20px}
+.paddL15{padding-left:15px}
+.paddT15{padding-top:15px}
+.paddR15{padding-right:15px}
+.paddB15{padding-bottom:15px}
+.noMargin{margin:0!important}
+.noPadd{padding:0!important}
+.more{float:right;color:#999;font-size:12px;font-weight:normal}
+.more:hover{color:#bc1d1d}
+.conWrap{width:1200px;margin:0 auto}
+@media screen and (max-width:1200px){
+	.conWrap{width:1000px}body{font-size:16.6666px}
+}
+@media screen and (min-width:1200px){
+	.conWrap{width:1200px}
+}

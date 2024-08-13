@@ -1,0 +1,474 @@
+﻿/*--------------------------------------------------
+1200px
+--------------------------------------------------*/
+/*input{padding:0px !important;}*/
+input[type="checkbox"]{margin-top:-3px;margin-right:1px}
+.font_fff, .colorf {color: #fff !important;}
+
+.sell_tip {width:180px;height:70px;background:url('images/sell_tip.gif') no-repeat;overflow:hidden;z-index:1000;position:absolute;}
+.sell_tip input{height:22px;line-height:22px;overflow:hidden;vertical-align:0;padding:0;}
+.sell_tip p {/*margin:0 0 4px 2px;*/font-weight:bold;}
+.sell_tip div {padding:8px 0 0 10px;line-height: 20px;}
+.tool {margin:0 10px 0 10px;border-bottom:#CCCCCC 1px dotted;}
+.tool table {width:100%;}
+.img_list li {height:22px;line-height:22px;overflow:hidden;}
+.product_option {padding:10px 20px 10px 20px;}
+.iq_btn {margin-top:10px;cursor:pointer;}
+.cc_inp {border:#CCCCCC 1px solid;text-align:center;}
+
+/*导航*/
+.offer_navbreadcrumb{border-top:1px solid #ccc;border-left:1px solid #ccc;border-right:1px solid #ccc; padding: 5px 15px;}
+
+
+/*company name and nav*/
+.logobody_show {height: 107px;}
+.com_logo{width:200px;height:70px}
+.com_logo img{margin-top:20px;width:200px;height:70px;}
+.companyname{width: 600px;height: 107px;line-height: 107px;}
+.companyname .h1 {
+    display: block;
+    font-size: 24px;
+    margin: 30px 0 10px 10px;
+    color: #333333;
+    font-weight: 600;
+}
+.companyname .h4 {
+    display: block;
+    font-size: 15px;
+    margin: 0 0 0 10px;
+    color: #333333;
+    height: 30px;
+    line-height: 30px;
+}
+.sign {
+    z-index: 1000;
+    width: 180px;
+    height: 50px;
+    background: url('images/vip_bg.gif') no-repeat;
+    margin-top: 20px;
+    right: 15px;
+}	
+.sign div{padding:20px 0 0 73px;}
+.sign strong{font-size:18px;color:red;}
+.sign span{font-size:18px;color:red;font-weight:bold;padding:0 0 0 61px;}
+
+
+.weishop{display: inline-block;height: 15px;width: 15px;background: url(images/con_sprite.png) no-repeat -156px -4px;margin-left: 5px;position:relative;}
+.weishop a {height: 15px;width: 15px; display:block;}
+.weishop-con{display:none;width:150px;height:164px;text-align:center;line-height:30px;padding:12px;border:1px solid #e0e0e0;position:absolute;top:20px;left:0px;background:#fff;z-index:9999;font-size: 14px;}
+
+.fangdatishi{width:300px;height:30px;line-height:30px;color:#666666; position: relative;font-size: 14px;filter: Alpha(opacity=80);opacity: 0.8;background-color: #f5f5f5;}
+.fangdatishi img{width:21px !important;}
+
+
+/*提示*/
+.sell_show {background:#FFFFE5;padding:10px 20px 10px 20px;overflow:hidden;border:#FFD089 1px solid;}
+.sell_show div {line-height:26px;overflow:hidden;}
+
+.iconfont:before, .iconfont:after {font-size: 16px;}
+/*input[type="radio"], input[type="checkbox"] {margin: 0 1px !important;}*/
+
+/*类别排行标志*/
+.selectarea a {
+	display: inline-block;
+	width: auto;
+	height: 28px;
+	float: left;
+	line-height: 28px;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #efefef;
+	padding: 0 10px;
+	color: #565656;
+}
+.selectarea a.current {
+    color: #3094ed;
+    background-color: #FFF;
+}
+.selectarea span {
+	display: inline-block;
+	height: 28px;
+	line-height: 28px\9;
+	*line-height: 28px;
+	_line-height: 28px;
+	float: left;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.selectarea i {
+    display: inline-block;
+    width: 7px;
+    height: 8px;
+    float: left;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    margin: 10px 0 0 5px;
+}
+.selectarea i {display: inline-block;background: url(images/icon_sell.png) no-repeat 0 0;}
+.selectarea i.down {
+	background-position: 0px -40px;
+}
+
+.selectarea i.up {
+	background-position: -7px -40px;
+}
+
+.selectarea .current i.down {
+	background-position: -58px -140px;
+}
+
+.selectarea .current i.up {
+	background-position: -65px -140px;
+}
+.selectarea label {font-weight: 100;}
+
+
+/*搜索页面*/
+.buyso {height: 100%;float: left;}
+.buygg {margin-right: 10px;}
+.fsearch {background: #E8F1FF url('images/buyso.png') no-repeat right;}
+
+/*加入购物车*/
+.cart_foot {border-top:#CCCCCC 1px solid;background:#F6F6F6;padding:20px 40px 20px 0;color:#666666;text-align:right;}
+#cart_tip {width:350px;z-index:1000;position:absolute;margin:-40px 0 0 -15px;background:#FFFFFF;border:#cdf3ba 1px solid;padding:0 0 15px 0;}
+#cart_tip p {margin:0;background:#cdf3ba;padding:6px 4px 4px 6px;font-size:13px;font-weight:bold;}
+#cart_tip div {background:url(images/okay.gif) no-repeat 15px 10px;padding:15px 20px 10px 50px;font-size:13px;}
+#cart_tip span {color:#FF6600;font-weight:bold;}
+#cart_tip img {float:right;cursor:pointer;}
+#cart_tip center input {display:inline-block; padding:2px 4px !important; border:1px solid #dcf4d1; background-color:#fafff8;}
+.f_orange {color:#FF6600;}
+
+
+/*20160910*/
+.user_login{margin-left:20px}
+.user_reg_c{margin-left:30px}
+.user_tip{border-bottom:0px}
+
+/*20170419-在线客服*/
+.side {
+    position: fixed;
+    right: 5px;
+    top: 60%;
+    margin-top: -120px;
+    box-shadow: 1px 1px 5px #999;
+    background: #fff;
+    z-index: 99;
+}
+.side ul li.ones {
+    z-index: 2;
+}
+.side ul li {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    cursor: pointer;
+    color: #3094ed;
+    border-bottom: 1px solid #ddd;
+    z-index: 1;
+    padding-top: 10px;
+}
+.side ul li .liabox {
+	display: block;
+	width: 100%;
+	color: #3094ed;
+	font-size: 12px;
+	padding-top: 35px;
+}
+.side ul li:hover {
+    color: #fff;
+    background: #3094ed;
+}
+.side ul li:hover .liabox{color: #fff;}
+.side ul li .phone {
+    display: none;
+    position: absolute;
+    left: -155px;
+    top: 0;
+    z-index: 1;
+    width: 155px;
+    max-height: 230px;
+    line-height: 2;
+    color: #fff;
+    font-size: 16px;
+    background: #3094ed;
+    box-shadow: -1px 1px 5px #999;
+    padding-top: 7px;
+}
+.side ul li:hover .phone{display:block}
+.show {display: block !important;}
+.colorf {color: #fff !important;}
+.f12 {font-size: 12px !important;}
+
+.icon-qq,.icon-zaixianzixun,.icon-fanhui,.icon-saoyisao{background:url('images/qq-ico.png') no-repeat;width: 30px;height: 28px;padding-top:10px;}
+.icon-qq{background-position: 20px 0px;}
+.icon-zaixianzixun{background-position: 20px -30px;}
+.icon-fanhui{background-position: 20px -65px;}
+.icon-saoyisao{background-position: 20px -205px;}
+
+.icon-qq:hover,.icon-zaixianzixun:hover,.icon-fanhui:hover,.icon-saoyisao:hover{background:url('images/qq-ico.png') no-repeat;width: 30px;height: 28px;padding-top:10px;}
+.icon-qq:hover{background-position: 20px -105px;}
+.icon-zaixianzixun:hover{background-position: 20px -138px;}
+.icon-fanhui:hover{background-position: 20px -170px;}
+.icon-saoyisao:hover{background-position: 20px -240px;}
+
+.side ul li:hover .icon-qq,.side ul li:hover .icon-zaixianzixun,.side ul li:hover .icon-fanhui,.side ul li:hover .icon-saoyisao{background:url('images/qq-ico.png') no-repeat;padding-top: 35px;display: inline-block;}
+.side ul li:hover .icon-qq{background-position: 20px -105px;}
+.side ul li:hover .icon-zaixianzixun{background-position: 20px -138px;}
+.side ul li:hover .icon-fanhui{background-position: 20px -170px;}
+.side ul li:hover .icon-saoyisao{background-position: 20px -240px;}
+
+
+.side ul li .imgshow {
+    position: absolute;
+    left: -129px;
+    top: -52px;
+    display: none;
+    width: 127px;
+    border: 1px #ddd solid;
+    padding: 10px;
+	background: #ffffff;
+}
+.two:hover .imgshow{display:block}
+
+
+/*20170429-xinbian-sell-show*/
+.hotprolist {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background: #fff;
+    width: 200px;
+    margin: 10px 10px 10px 0;
+}
+.text-c {
+    text-align: center !important;
+}
+.hotprolist .boxBox {
+    padding: 10px;
+    overflow: hidden;
+}
+.hotprolist .boxBox .Boxproul {
+    overflow: hidden;
+    position: relative;
+    width: 3000px;
+    height: 136px;
+}
+
+.hotprolist .boxBox .Boxproul .boxUl {
+    position: absolute;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    left: 0;
+}
+.hotprolist .boxBox .Boxproul .boxUl li {
+    box-sizing: border-box;
+    width: 178px;
+	margin-right: 10px;
+}
+.hotprolist .boxBox .Boxproul .boxUl li a span {
+    width: 177px;
+    height: 110px;
+    line-height: 110px;
+    overflow: hidden;
+    margin: auto;
+}
+.hotprolist .boxBox .Boxproul .boxUl li a span img {
+    width: 176px;
+	height: 110px;
+    vertical-align: middle;
+}
+.hotprolist .boxBox .round {
+    position: relative;
+}
+
+.hotprolist .boxBox .round .listnum {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(255,255,255,0);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.hotprolist .boxBox .round .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #f00;
+}
+
+.xcmain .xc_left .xcinformation .borderb .Themebg {
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.xcmain .xc_left .xcinformation .vipsyb img, .xcmain .xc_left .xcinformation .widthimg {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+	margin-top: -3px;
+    vertical-align:middle;
+}
+.xcmain .xc_left .xcinformation .borderb .about_info {
+    padding: 5px 10px;
+}
+.about_info {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+}
+.about_info h3{font-size: 18px;font-weight: bold;padding: 10px 0px;}
+.pointBoxbottom img{vertical-align:middle;margin-top:-4px}
+.pointBoxbottom .infomore {
+    position: relative;
+}
+.pointBoxbottom .infomore:hover .pointinfo {
+    display: block;
+}
+.pointBoxbottom .infomore .pointinfo {
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    background: #fef2da;
+    padding: 0 5px;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #ffc655;
+    font-size: 12px;
+    z-index: 10;
+    border-radius: 2px;
+    color: #b18328;
+    text-align: center;
+}
+.iconboxAll .pointBoxbottom .infomore .pointinfo {
+    width: 210px;
+    left: 50%;
+    margin: 0 0 0 -105px;
+}
+.about_info .year {
+    font-size: 12px;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+}
+.xcmain .xc_left .xcinformation .webtel {
+    text-align: center;
+}
+.xcmain .xc_left .xcinformation .webtel img {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    vertical-align: bottom;
+}
+.xcmain .xc_left .xcinformation .xclsc.width {
+    width: 133px;
+}
+.xcmain .xc_left .xcinformation .xclsc {
+    color: #000;
+    height: 32px;
+    line-height: 28px;
+    border: 1px solid #d5d5d5;
+    background: #f9f9f9;
+    margin: 10px 10px 0 0;
+    float: left;
+    cursor: pointer;
+}
+.F36borderH:hover {
+    border-color: #3094ed !important;
+}
+
+/* offer detail */
+.idx-menu {
+height: 60px;
+min-width: 1200px;
+background: #ECECEC;
+margin-bottom: 20px;
+}
+.qyd {
+border-top: 2px #3094ED solid;
+}
+.clearfix, .clearfix-dq, .wrap, .header, .content, .clli li, .cldl dl {
+zoom: 1;
+}
+.mt-15 {
+margin-top: 15px;
+}
+.clearfix, .wrap, .header, .content, .clli li, .cldl dl {
+zoom: 1;
+}
+.idx-menu .idx-menu-logo {
+    width: 90px;
+    height: 45px;
+    margin: 6px 0 0 10px;
+}
+.idx-menu ul, .idx-menu li, .idx-menu a {
+    float: left;
+    font-family: Microsoft YaHei,宋体;
+}
+.idx-menu .idx-menu-comname {
+    padding: 5px 5px;
+    float: left;
+}
+.idx-menu .idx-menu-comname .menu-comname {
+    float: left;
+    font-size: 20px;
+    color: #666;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 335px;
+    min-width: 330px;
+    max-width: 330px;
+    overflow: hidden;
+    height: 25px;
+}
+.idx-menu a {
+    color: #666;
+    TEXT-DECORATION: none;
+}
+.idx-menu .idx-menu-comname .menu-ewm {
+    position: absolute;
+    z-index: 99;
+    margin: 0 auto;
+    display: none;
+    width: 200px;
+    height: 232px;
+    border: 1px solid #c0c0c0;
+    background-color: #ffffff;
+}
+.idx-menu .idx-menu-ge {
+    padding: 0px 20px;
+    float: left;
+    float: left;
+    height: 60px;
+    width: 20px;
+}
+.idx-menu .idx-menu-list {
+    margin-top: 23px;
+    float: left;
+}
+.idx-menu ul, .idx-menu li, .idx-menu a {
+    float: left;
+    font-family: Microsoft YaHei,宋体;
+}
+.idx-menu .idx-menu-list .menu-list-div {
+    float: left;
+}
+.idx-menu .idx-menu-list .menu-list-div li {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 15px;
+    border-left: 1px solid #d0d0d0;
+    height: 20px;
+}
